@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VORTEX // Made by Favour Dave's</title>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">VORTEX<span>//</span>PRO</div>
+    <nav>
+      <a href="#roster">Pro Roster</a>
+      <a href="#trophies">Championships</a>
+      <a href="#gear">Pro Gear</a>
+    </nav>
+    <button class="btn-crimson" id="openTestNav">Reaction Test</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="tag">GLOBAL CHAMPIONS 2026</div>
+      <h1>BUILT FOR<br><span>VICTORY</span></h1>
+      <p>Home to world-ranked tactical shooters, championship coaches, and elite gaming hardware.</p>
+      <div class="hero-btns">
+        <a href="#roster" class="btn-crimson">Meet The Squad</a>
+        <button class="btn-outline" id="openTestHero">Test Pro Reflexes</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-box">
+        <h3>14</h3>
+        <p>MAJOR TITLES</p>
+      </div>
+      <div class="stat-box">
+        <h3>$2.4M</h3>
+        <p>PRIZE EARNINGS</p>
+      </div>
+      <div class="stat-box">
+        <h3>#1</h3>
+        <p>WORLD RANKING</p>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="roster" class="container">
+      <div class="section-top">
+        <h2>ACTIVE ROSTER</h2>
+        <div class="division-tabs">
+          <button class="tab-btn active" data-division="all">All Divisions</button>
+          <button class="tab-btn" data-division="valorant">Valorant</button>
+          <button class="tab-btn" data-division="cs2">Counter-Strike</button>
+        </div>
+      </div>
+
+      <div class="roster-grid">
+        <div class="player-card" data-division="valorant">
+          <div class="player-avatar av-1">KAIRO</div>
+          <div class="player-details">
+            <span class="role-badge">DUELIST &bull; IGL</span>
+            <h3>Marcus "KAIRO" Vance</h3>
+            <div class="stats-row">
+              <div><strong>1.34</strong><span>K/D RATIO</span></div>
+              <div><strong>268</strong><span>ACS</span></div>
+              <div><strong>34%</strong><span>HEADSHOT</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card" data-division="cs2">
+          <div class="player-avatar av-2">SPECTRE</div>
+          <div class="player-details">
+            <span class="role-badge">AWPER &bull; SNIPER</span>
+            <h3>Lukas "SPECTRE" Lindqvist</h3>
+            <div class="stats-row">
+              <div><strong>1.41</strong><span>K/D RATIO</span></div>
+              <div><strong>88.4</strong><span>ADR</span></div>
+              <div><strong>78%</strong><span>KAST</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card" data-division="valorant">
+          <div class="player-avatar av-3">NYX</div>
+          <div class="player-details">
+            <span class="role-badge">CONTROLLER</span>
+            <h3>Elena "NYX" Rostova</h3>
+            <div class="stats-row">
+              <div><strong>1.19</strong><span>K/D RATIO</span></div>
+              <div><strong>215</strong><span>ACS</span></div>
+              <div><strong>41%</strong><span>CLUTCH</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card" data-division="cs2">
+          <div class="player-avatar av-4">ZERO</div>
+          <div class="player-details">
+            <span class="role-badge">ENTRY FRAGGER</span>
+            <h3>Devon "ZERO" Brooks</h3>
+            <div class="stats-row">
+              <div><strong>1.26</strong><span>K/D RATIO</span></div>
+              <div><strong>92.1</strong><span>ADR</span></div>
+              <div><strong>52%</strong><span>OPENING</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trophies" class="container">
+      <div class="section-top">
+        <h2>TROPHY CABINET</h2>
+      </div>
+      <div class="trophy-grid">
+        <div class="trophy-card">
+          <div class="trophy-year">2026</div>
+          <h3>SEOUL MASTERS</h3>
+          <p>1st Place &bull; Undefeated Grand Finals (3-0)</p>
+        </div>
+        <div class="trophy-card">
+          <div class="trophy-year">2025</div>
+          <h3>BERLIN INVITATIONAL</h3>
+          <p>1st Place &bull; MVP Award: KAIRO</p>
+        </div>
+        <div class="trophy-card">
+          <div class="trophy-year">2025</div>
+          <h3>TOKYO WORLD CUP</h3>
+          <p>1st Place &bull; $500,000 Grand Prize</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gear" class="container">
+      <div class="section-top">
+        <h2>OFFICIAL PRO KIT</h2>
+      </div>
+      <div class="gear-grid">
+        <div class="gear-item">
+          <div class="gear-tag">LIMITED EDITION</div>
+          <h3>Vortex 2026 Pro Jersey</h3>
+          <p>Breathable carbon-weave esports jersey with custom gamertag print.</p>
+          <button class="btn-outline full-btn" onclick="alert('Added Jersey to cart!')">View Edition</button>
+        </div>
+        <div class="gear-item">
+          <div class="gear-tag">HARDWARE</div>
+          <h3>Vortex Zero-Latency Mousepad</h3>
+          <p>Micro-textured speed surface engineered for 8000Hz polling sensors.</p>
+          <button class="btn-outline full-btn" onclick="alert('Added Mousepad to cart!')">View Specs</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 VORTEX ESPORTS ORGANIZATION| | Pefa Homabay CDC. ALL RIGHTS RESERVED .</p>
+  </footer>
+
+  <!-- Reaction Speed Modal -->
+  <div class="modal" id="reactionModal">
+    <div class="modal-card">
+      <h3>PRO REACTION BENCHMARK</h3>
+      <p class="modal-desc">Pro players average under <strong>180ms</strong>. Click the box below to start.</p>
+      <div id="reactionPad" class="reaction-pad state-idle">
+        CLICK TO START
+      </div>
+      <div class="best-time">Best Time: <span id="bestScore">--</span> ms</div>
+      <button class="btn-outline" id="closeReactionModal">Close Benchmark</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
